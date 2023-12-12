@@ -1,0 +1,82 @@
+
+*{
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+}
+body{ width: auto;
+    height: 100%; 
+    background-color: aliceblue;
+     box-shadow:2px 2px 2px 2px grey; 
+    }
+
+ header
+{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    display: block;
+    text-align: center;
+    
+}
+nav{
+    height: auto; 
+    width: 100%;
+    background-color: grey;
+    color: white;
+}
+nav ol, li,li  a
+{
+    height: auto; 
+    width: 100%;
+    background-color: grey;
+    color: white;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 4px;
+    display: flex;
+}
+nav ol li a {float: left;}
+main{ padding-top: 0px; list-style-type: circle;}
+main ul,h1{
+     width: 60%;
+     height: auto;
+     font-size: x-large; 
+     color: black; 
+     background-color:white ;
+     border-left: 6px;
+    }
+
+main  ul li, h1 p
+{   
+  
+    display: float;
+    height: auto; 
+    width: auto;
+    background-color: grey;
+    color: white;
+    text-align: justify;
+    font-size:20px;
+    float: justify ;  
+    border-radius: 8px;
+    border-bottom: 5px;
+    box-sizing: border-box;
+    border: 6px solid white;
+}
+.img
+{
+    display:float;
+    height: auto;
+    width: auto;
+    border:8px solid black;
+    box-sizing: border-box;
+    border-radius: 2px;
+    float:right;
+    max-width: 36%;
+    padding-top:0px;
+}
+main h1
+{text-align: center;}
